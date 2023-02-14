@@ -1,0 +1,56 @@
+/* change these properties
+   on all <a> elements in the page */
+
+    
+   h2 {
+    color: rgba(225, 60, 250, 0.877);
+    font-family: 'Scooby Doo';
+    font-size: large;
+    padding: 10px;
+    border: 1px solid green;
+    border-radius: 8px;
+    border-color: blueviolet;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(149, 255, 0);
+}
+
+li{
+
+    font-family: 'Scooby Doo';
+}
+
+body{
+
+
+    padding: 10px;
+ 
+
+    background:
+    url(fond.jfif) ;
+    background-size: auto;
+    background-color: rgba(159, 95, 218, 0.42);
+
+    border: 50px solid rgb(141, 245, 23);
+    border-image: url(fleur.png) 30 round;
+    border-image-repeat: repeat;
+    border-image-width: 30px;
+    box-sizing: border-box;
+    background-clip: border-box;
+    margin:auto;
+
+}
+
+
+h1{
+    color: rgb(244, 224, 0);
+    font-family: 'Scooby Doo';
+    font-size: 100 px;
+    padding: 20px;
+    border: 1px solid green;
+    border-radius: 8px;
+    border-color: rgb(0, 25, 117);
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(255, 102, 0);
+}
