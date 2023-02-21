@@ -2,6 +2,14 @@
    on all <a> elements in the page */
 
     
+   @media only screen and (max-width: 1000px) {
+    /* here we use a rule MORE SPECIFIC than above */
+    html>body {
+      background-color: transparent; /* light green */
+    }
+  }
+
+
    h2 {
     color: rgba(225, 60, 250, 0.877);
     font-family: 'Scooby Doo';
@@ -21,6 +29,26 @@ li{
 }
 
 body{
+
+
+
+    @media only screen and (max-width: 500px) {
+        /* here we use a rule MORE SPECIFIC than above */
+        html>body {
+            background-color: #ff0000; /* light green */
+        }
+
+    }
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    grid-template-areas: 
+    "title image"
+    "experience education"
+    "skill hobby";
+
 
 
     padding: 10px;
@@ -52,5 +80,8 @@ h1{
     border-color: rgb(0, 25, 117);
     text-decoration: none;
     text-align: center;
+    text-size-adjust: none ;
     background-color: rgb(255, 102, 0);
 }
+
+
